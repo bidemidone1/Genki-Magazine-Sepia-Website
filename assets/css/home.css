@@ -128,6 +128,28 @@ main{
     margin-bottom: 3rem;
 }
 
+.images1 .img{
+    height: 348px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img1{
+    background-image: url(/assets/images/jade-scarlato-1lun52-nNys-unsplash.jpg);
+}
+
+.img2{
+    background-image: url(/assets/images/kamile-jokubauskaite-UMlHAGFGU-Q-unsplash.jpg);
+}
+
+.img3{
+    background-image: url(/assets/images/gemma-chua-tran-Td3yG1y4aII-unsplash.jpg);
+}
+
+.img4{
+    background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
+}
 
 /* FOOOTER */
 
