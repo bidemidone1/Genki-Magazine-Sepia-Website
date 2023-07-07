@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f2efe4;
+}
+
 .d-flex{
     display: flex;
 }
@@ -55,7 +59,7 @@ footer{
 
 .footer-container{
     margin: auto;
-    width: 70%;
+    width: 74%;
 }
 
 .footer-logo img{
@@ -66,13 +70,15 @@ footer{
 
 
 .footer-section_container{
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 8rem;
+    margin-bottom: 2rem;
 }
 
 .footer-title{
     margin-bottom: 1.5rem;
-    font-weight: 700;
-    font-size: 0.7rem;
+    font-weight: 600;
+    font-size: 0.6rem;
     letter-spacing: 0.2rem;
 }
 
@@ -89,4 +95,9 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+.copyright, .copyright a{
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
 }
