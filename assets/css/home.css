@@ -71,23 +71,23 @@ ul{
     width: 20%;
 }
 
-.signup{
+.signup, .subscribe{
     background-color: #1e1e1e;
     padding: 0.7rem 2.1rem;
     border-radius: 100px;
     transition: background-color 0.3s ease;
 }
 
-.signup:hover{
+.signup:hover, .subscribe:hover{
     background-color: #e4b245;
 }
 
 
-.signup a{
+.signup a, .subscribe a{
     color: #fff;
 }
 
-.signup a:hover{
+.signup a:hover, .subscribe a:hover{
     text-decoration: none;
 }
 
@@ -110,15 +110,36 @@ main{
     font-style: normal;
 }
 
+.genki{
+    line-height: 1.65;
+    font-size: 1.8rem;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 1.9rem;
+    margin-bottom: 2rem;
+    width: 85%;
+}
+
+.subscribe{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    /* margin-top: 3rem; */
+    margin-bottom: 3rem;
+}
+
 
 /* FOOOTER */
 
 footer{
     font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid red;
+    margin-top: 3rem;
+    
 }
 
 .footer-container{
-
+    
 }
 
 .footer-logo img{
