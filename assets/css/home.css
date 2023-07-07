@@ -6,14 +6,34 @@
 
 body{
     background-color: #f2efe4;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .d-flex{
     display: flex;
 }
 
+
+/* HEADER */
 nav{
     justify-content: space-between;
+    padding-top: 20px; 
+}
+
+nav a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav li{
+    list-style-type: none;
 }
 
 .logo img{
@@ -21,20 +41,18 @@ nav{
     height: 2rem;
 }
 
-li img{
-    width: 2rem;
-    height: 2rem;
-}
-
 .menu-icon img{
     width: 2rem;
     height: 2rem;
+    margin-top: 3px;
 }
 
 
 .logo-container{
     gap: 2rem;
-    width: 30%;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
@@ -42,9 +60,33 @@ ul{
 }
 
 .search-signup{
-    justify-content: space-between;
-    width: 10%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
 }
+
+.signup{
+    background-color: #1e1e1e;
+    padding: 0.7rem 2.1rem;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.signup:hover{
+    background-color: #e4b245;
+}
+
+
+.signup a{
+    color: #fff;
+}
+
+.signup a:hover{
+    text-decoration: none;
+}
+
+
 
 
 /* FOOOTER */
