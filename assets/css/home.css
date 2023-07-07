@@ -41,3 +41,46 @@ ul{
     justify-content: space-between;
     width: 10%;
 }
+
+
+/* FOOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-container{
+    margin: auto;
+    width: 70%;
+}
+
+.footer-logo img{
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+.footer-section_container{
+    justify-content: space-between;
+}
+
+.footer-title{
+    margin-bottom: 1.5rem;
+}
+
+.footer-section div{
+    margin-bottom: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: ;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
