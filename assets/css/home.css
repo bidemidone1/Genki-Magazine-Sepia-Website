@@ -6,7 +6,7 @@
 
 .container{
     margin: auto;
-    width: 90%;
+    width: 85%;
 }
 
 body{
@@ -91,7 +91,24 @@ ul{
     text-decoration: none;
 }
 
+/* MAIN */
+main{
+    font-family: 'EB Garamond', serif;
+}
 
+.main-text{
+    width: 82%;
+    color: #1e1e1e;
+}
+
+.bold-italics{
+    font-style: italic;
+    font-size: 5.5rem;
+}
+
+.bold-italics span{
+    font-style: normal;
+}
 
 
 /* FOOOTER */
