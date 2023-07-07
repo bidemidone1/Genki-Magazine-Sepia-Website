@@ -11,3 +11,29 @@
 nav{
     justify-content: space-between;
 }
+
+.logo img{
+    width: 6rem;
+    height: 2rem;
+}
+
+li img{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+.logo-container{
+    gap: 2rem;
+    width: 30%;
+}
+
+ul{
+    gap: 2rem;
+}
+
+.search-signup{
+    justify-content: space-between;
+    width: 10%;
+}
