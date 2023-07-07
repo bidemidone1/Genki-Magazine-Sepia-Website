@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2efe4;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+/* HEADER */
+nav{
+    justify-content: space-between;
+    padding: 20px 40px; 
+}
+
+nav a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.logo img{
+    width: 6rem;
+    height: 2rem;
+}
+
+.menu-icon img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 3px;
+}
+
+
+.logo-container{
+    gap: 2rem;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    gap: 2rem;
+}
+
+.search-signup{
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.signup{
+    background-color: #1e1e1e;
+    padding: 0.7rem 2.1rem;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.signup:hover{
+    background-color: #e4b245;
+}
+
+
+.signup a{
+    color: #fff;
+}
+
+.signup a:hover{
+    text-decoration: none;
+}
+
+
+
+
+/* FOOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.footer-container{
+    margin: auto;
+    width: 74%;
+}
+
+.footer-logo img{
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+.footer-section_container{
+    /* justify-content: space-between; */
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-title{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer-section div{
+    margin-bottom: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright, .copyright a{
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
