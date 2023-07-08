@@ -156,17 +156,7 @@ main{
     background-position: center;
     border-radius: 30px;
     margin-top: 5rem;
-    margin-bottom: 5rem;
-    
-}
-
-.images2 .s_img{
-    width: 30%;
-    min-height: 80px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px;
+    margin-bottom: 2.5rem;
     
 }
 
@@ -180,6 +170,83 @@ main{
 
 .img7{
     background-image: url(/assets/images/josep-martins-l3-erg8nPRU-unsplash-2.jpg);
+}
+
+.images2 .s_img{
+    width: 30%;
+    min-height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    margin-bottom: 4rem; 
+}
+
+.images3{
+    color: #1e1e1e;
+}
+
+.images3-p{
+    font-size: 4.5rem;
+    max-width: 50%;
+}
+
+.images3-p span{ 
+    font-style: italic;
+}
+
+.img8{
+    background-image: url(/assets/images/suhyeon-choi-VfOw1B-y_rQ-unsplash.jpg);
+    z-index: 1;
+}
+
+.img9{
+    background-image: url(/assets/images/andre-miranda-YcSozv26XjQ-unsplash.jpg);
+    /* z-index: -1; */
+}
+
+
+.img10{
+    background-image: url(/assets/images/ziphaus-P8mV7z5LTp4-unsplash.jpg);
+    z-index: -1;
+}
+
+.img11{
+    background-image: url(/assets/images/nathan-dumlao-ger61_TX6oI-unsplash.jpg);
+    z-index: -2;
+}
+
+/* .images3-img{
+    border: 1px solid red;
+} */
+
+/* .images3-p{
+    width: 50%;
+} */
+
+.images3-img .round-images{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;  
+    margin-bottom: 0.5rem;
+}
+
+.img8, .img9, .img10{
+    margin-right: -0.6rem;
+}
+
+.images3-img_container{
+    margin-bottom: 0px;
+    margin-top: 6.5rem;
+}
+
+.images3-img_container p{
+    float: right;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.8rem;
 }
 
 /* FOOOTER */
