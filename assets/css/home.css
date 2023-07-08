@@ -128,18 +128,6 @@ main{
     margin-bottom: 3rem;
 }
 
-.images1{
-    justify-content: space-between;
-}
-
-.images1 .img{
-    width: 23%;
-    min-height: 400px;
-    background-size: cover;
-    border-radius: 30px;
-    margin-top: 5rem;
-}
-
 .img1{
     background-image: url(/assets/images/jade-scarlato-1lun52-nNys-unsplash.jpg);
 }
@@ -154,6 +142,44 @@ main{
 
 .img4{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
+}
+
+.images1, .images2{
+    justify-content: space-between;
+}
+
+.images1 .img{
+    width: 23%;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+.images2 .s_img{
+    width: 30%;
+    min-height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    
+}
+
+.img5{
+    background-image: url(/assets/images/kobu-agency-k41cAJvJ7h0-unsplash.jpg);
+}
+
+.img6{
+    background-image: url(/assets/images/eberhard-grossgasteiger-SQtEnnmV-No-unsplash-1.jpg);
+}
+
+.img7{
+    background-image: url(/assets/images/josep-martins-l3-erg8nPRU-unsplash-2.jpg);
 }
 
 /* FOOOTER */
