@@ -29,7 +29,7 @@ nav a{
     text-decoration: none;
     color: #1e1e1e;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
 }
 
@@ -42,7 +42,7 @@ nav li{
 }
 
 .logo img{
-    width: 6rem;
+    width: 5rem;
     height: 2rem;
 }
 
@@ -55,7 +55,7 @@ nav li{
 
 .logo-container{
     gap: 2rem;
-    width: 35%;
+    max-width: 45%;
     justify-content: center;
     align-items: center;
 }
@@ -68,12 +68,12 @@ ul{
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    max-width: 25%;
 }
 
 .signup, .subscribe{
     background-color: #1e1e1e;
-    padding: 0.7rem 2.1rem;
+    padding: 0.5rem 2rem;
     border-radius: 100px;
     transition: background-color 0.3s ease;
 }
