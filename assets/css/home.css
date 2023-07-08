@@ -144,7 +144,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2{
+.images1, .images2, .images3{
     justify-content: space-between;
 }
 
