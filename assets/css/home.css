@@ -184,6 +184,7 @@ main{
 
 .images3{
     color: #1e1e1e;
+    margin-bottom: 2rem;
 }
 
 .images3-p{
@@ -249,21 +250,27 @@ main{
     font-size: 0.8rem;
 }
 
+.img12{
+    background-image: url(/assets/images/lizzie-Amgr1UIYR1s-unsplash.jpg);
+}
+
+.img13{
+    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+}
+
 
 .images4 .img12{
     width: 65%;
-    min-height: 300px;
+    min-height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px; 
-    /* margin-bottom: 4rem; */
-    border: 1px solid red;
 }
 
 .images4 .img13{
-    width: 25%;
-    min-height: 300px;
+    width: 33%;
+    min-height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
