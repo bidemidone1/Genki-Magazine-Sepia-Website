@@ -147,7 +147,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2, .images3, .images4, .images5, .arrow{
+.images1, .images2, .images3, .images4, .images5, .arrow, .images6{
     justify-content: space-between;
 }
 
@@ -325,6 +325,7 @@ main{
     font-size: 3.8rem;
     margin-top: 6rem;
     color: #1e1e1e;
+    margin-bottom: 2rem;
 }
 
 .arrow span{
@@ -333,6 +334,37 @@ main{
 
 .arrow i{
     color: #1e1e1e;
+}
+
+.img20{
+    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+}
+
+.img21{
+    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg);
+}
+
+.img22{
+    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
+}
+
+.img23{
+    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
+}
+
+.images6 .four_img{
+    width: 23%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    margin-bottom: 2rem;
+    border: 1px solid red;
+}
+
+.images6{
+    margin-bottom: 4rem;
 }
 
 /* FOOOTER */
