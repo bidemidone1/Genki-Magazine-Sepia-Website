@@ -144,7 +144,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2, .images3{
+.images1, .images2, .images3, .images4{
     justify-content: space-between;
 }
 
@@ -247,6 +247,29 @@ main{
     float: right;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
+}
+
+
+.images4 .img12{
+    width: 65%;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    /* margin-bottom: 4rem; */
+    border: 1px solid red;
+}
+
+.images4 .img13{
+    width: 25%;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    /* margin-bottom: 4rem; */
+    border: 1px solid red;
 }
 
 /* FOOOTER */
