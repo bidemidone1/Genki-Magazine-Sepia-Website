@@ -147,7 +147,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2, .images3, .images4, .images5{
+.images1, .images2, .images3, .images4, .images5, .arrow{
     justify-content: space-between;
 }
 
@@ -319,6 +319,20 @@ main{
 
 .load_more-btn{
     padding: 15px 50px;
+}
+
+.arrow{
+    font-size: 3.8rem;
+    margin-top: 6rem;
+    color: #1e1e1e;
+}
+
+.arrow span{
+    font-style: italic;
+}
+
+.arrow i{
+    color: #1e1e1e;
 }
 
 /* FOOOTER */
