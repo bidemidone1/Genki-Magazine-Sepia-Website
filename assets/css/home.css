@@ -18,6 +18,10 @@ body{
     display: flex;
 }
 
+.t-center{
+    text-align: center;
+}
+
 
 /* HEADER */
 nav{
@@ -307,6 +311,14 @@ main{
     background-position: center;
     border-radius: 30px; 
     margin-bottom: 2rem;
+}
+
+.images5{
+    margin-bottom: 2rem;
+}
+
+.load_more-btn{
+    padding: 15px 50px;
 }
 
 /* FOOOTER */
