@@ -147,7 +147,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2, .images3, .images4, .images5, .arrow, .images6{
+.images1, .images2, .images3, .images4, .images5, .arrow, .images6, .new-post{
     justify-content: space-between;
 }
 
@@ -195,7 +195,7 @@ main{
     max-width: 50%;
 }
 
-.images3-p span{ 
+.images3-p span, .new-post span{ 
     font-style: italic;
 }
 
@@ -360,19 +360,41 @@ main{
     background-position: center;
     border-radius: 30px; 
     margin-bottom: 2rem;
-    border: 1px solid red;
 }
 
 .images6{
     margin-bottom: 4rem;
 }
 
+.new-post{
+    font-size: 3.7rem;
+    color: #1e1e1e;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    padding-bottom: 3rem;
+}
+
+.new-post input{
+    width: 400px;
+    height: 68px;
+    z-index: -1;
+    background-color: transparent;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    text-indent: 2rem;
+}
+
+.subscribe_input{
+    margin-right: -25rem;
+    /* z-index: -1; */
+}
+
 /* FOOOTER */
 
 footer{
     font-family: 'Nunito Sans', sans-serif;
-    border: 1px solid red;
-    margin-top: 3rem;
+    margin-top: 4rem;
     
 }
 
