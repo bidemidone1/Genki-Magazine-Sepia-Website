@@ -144,7 +144,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2, .images3, .images4{
+.images1, .images2, .images3, .images4, .images5{
     justify-content: space-between;
 }
 
@@ -275,8 +275,48 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px; 
-    /* margin-bottom: 4rem; */
-    border: 1px solid red;
+}
+
+.images4{
+    margin-bottom: 2rem;
+}
+
+.images5{
+    flex-wrap: wrap;
+}
+
+.img14{
+    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg)
+}
+
+.img15{
+    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
+}
+
+.img16{
+    background-image: url(/assets/images/clem-onojeghuo-TDgEgi6zM2s-unsplash-1.jpg);
+}
+
+.img17{
+    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
+}
+
+.img18{
+    background-image: url(/assets/images/gemma-chua-tran-z7gi8Dc4riQ-unsplash.jpg);
+}
+
+.img19{
+    background-image: url(/assets/images/photo-1613420568020-0c0e3764d499.jpeg);
+}
+
+.images5 .three_img{
+    width: 32%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    margin-bottom: 2rem;
 }
 
 /* FOOOTER */
