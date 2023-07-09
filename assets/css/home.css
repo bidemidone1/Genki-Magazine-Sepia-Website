@@ -124,7 +124,6 @@ main{
     color: #fff;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
-    /* margin-top: 3rem; */
     margin-bottom: 3rem;
 }
 
@@ -203,7 +202,6 @@ main{
 
 .img9{
     background-image: url(/assets/images/andre-miranda-YcSozv26XjQ-unsplash.jpg);
-    /* z-index: -1; */
 }
 
 
@@ -216,14 +214,6 @@ main{
     background-image: url(/assets/images/nathan-dumlao-ger61_TX6oI-unsplash.jpg);
     z-index: -2;
 }
-
-/* .images3-img{
-    border: 1px solid red;
-} */
-
-/* .images3-p{
-    width: 50%;
-} */
 
 .images3-img .round-images{
     width: 60px;
