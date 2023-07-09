@@ -18,6 +18,10 @@ body{
     display: flex;
 }
 
+.t-center{
+    text-align: center;
+}
+
 
 /* HEADER */
 nav{
@@ -124,7 +128,6 @@ main{
     color: #fff;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
-    /* margin-top: 3rem; */
     margin-bottom: 3rem;
 }
 
@@ -144,7 +147,7 @@ main{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
 }
 
-.images1, .images2, .images3{
+.images1, .images2, .images3, .images4, .images5, .arrow, .images6, .new-post{
     justify-content: space-between;
 }
 
@@ -184,6 +187,7 @@ main{
 
 .images3{
     color: #1e1e1e;
+    margin-bottom: 2rem;
 }
 
 .images3-p{
@@ -191,7 +195,7 @@ main{
     max-width: 50%;
 }
 
-.images3-p span{ 
+.images3-p span, .new-post span{ 
     font-style: italic;
 }
 
@@ -202,7 +206,6 @@ main{
 
 .img9{
     background-image: url(/assets/images/andre-miranda-YcSozv26XjQ-unsplash.jpg);
-    /* z-index: -1; */
 }
 
 
@@ -215,14 +218,6 @@ main{
     background-image: url(/assets/images/nathan-dumlao-ger61_TX6oI-unsplash.jpg);
     z-index: -2;
 }
-
-/* .images3-img{
-    border: 1px solid red;
-} */
-
-/* .images3-p{
-    width: 50%;
-} */
 
 .images3-img .round-images{
     width: 60px;
@@ -249,12 +244,157 @@ main{
     font-size: 0.8rem;
 }
 
+.img12{
+    background-image: url(/assets/images/lizzie-Amgr1UIYR1s-unsplash.jpg);
+}
+
+.img13{
+    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+}
+
+
+.images4 .img12{
+    width: 65%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+}
+
+.images4 .img13{
+    width: 33%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+}
+
+.images4{
+    margin-bottom: 2rem;
+}
+
+.images5{
+    flex-wrap: wrap;
+}
+
+.img14{
+    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg)
+}
+
+.img15{
+    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
+}
+
+.img16{
+    background-image: url(/assets/images/clem-onojeghuo-TDgEgi6zM2s-unsplash-1.jpg);
+}
+
+.img17{
+    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
+}
+
+.img18{
+    background-image: url(/assets/images/gemma-chua-tran-z7gi8Dc4riQ-unsplash.jpg);
+}
+
+.img19{
+    background-image: url(/assets/images/photo-1613420568020-0c0e3764d499.jpeg);
+}
+
+.images5 .three_img{
+    width: 32%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    margin-bottom: 2rem;
+}
+
+.images5{
+    margin-bottom: 2rem;
+}
+
+.load_more-btn{
+    padding: 15px 50px;
+}
+
+.arrow{
+    font-size: 3.8rem;
+    margin-top: 6rem;
+    color: #1e1e1e;
+    margin-bottom: 2rem;
+}
+
+.arrow span{
+    font-style: italic;
+}
+
+.arrow i{
+    color: #1e1e1e;
+}
+
+.img20{
+    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+}
+
+.img21{
+    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg);
+}
+
+.img22{
+    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
+}
+
+.img23{
+    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
+}
+
+.images6 .four_img{
+    width: 23%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    margin-bottom: 2rem;
+}
+
+.images6{
+    margin-bottom: 4rem;
+}
+
+.new-post{
+    font-size: 3.7rem;
+    color: #1e1e1e;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    padding-bottom: 3rem;
+}
+
+.new-post input{
+    width: 400px;
+    height: 68px;
+    z-index: -1;
+    background-color: transparent;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    text-indent: 2rem;
+}
+
+.subscribe_input{
+    margin-right: -25rem;
+    /* z-index: -1; */
+}
+
 /* FOOOTER */
 
 footer{
     font-family: 'Nunito Sans', sans-serif;
-    border: 1px solid red;
-    margin-top: 3rem;
+    margin-top: 4rem;
     
 }
 
