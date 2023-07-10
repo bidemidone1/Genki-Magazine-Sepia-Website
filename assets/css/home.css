@@ -155,8 +155,24 @@ main{
     font-size: 1.2rem;
     margin-bottom: 3rem;
 }
+.images1{
+    position: relative;
+}
+/* .img{
+    position:;
+    border: 1px solid red;
+}
 
-.img1{
+.img p{
+    text-decoration: none;
+}
+
+.name{
+    color: red;
+    text-decoration: underline;
+} */
+
+/* .img1{
     background-image: url(/assets/images/jade-scarlato-1lun52-nNys-unsplash.jpg);
 }
 
@@ -170,22 +186,47 @@ main{
 
 .img4{
     background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
-}
+} */
 
 .images1, .images2, .images3, .images4, .images5, .arrow, .images6, .new-post{
     justify-content: space-between;
 }
 
 .images1 .img{
-    width: 23%;
+    width: 95%;
     min-height: 400px;
-    background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
     margin-top: 5rem;
     margin-bottom: 2.5rem;
     
+}
+
+.img-text1{
+    position: absolute;
+    top: 10rem;
+    width: 2rem;
+    padding-left: 20px;
+}
+.img-text2{
+    position: absolute;
+    top: 10rem;
+    width: 2rem;
+    padding-left: 20px;
+}
+.img-text3{
+    position: absolute;
+    top: 10rem;
+    width: 2rem;
+    padding-left: 20px;
+}
+.img-text4{
+    position: absolute;
+    top: 10rem;
+    width: 2rem;
+    padding-left: 20px;
 }
 
 .img5{
