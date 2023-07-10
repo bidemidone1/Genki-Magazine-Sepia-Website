@@ -155,41 +155,13 @@ main{
     font-size: 1.2rem;
     margin-bottom: 3rem;
 }
-.images1{
-    position: relative;
-}
-/* .img{
-    position:;
-    border: 1px solid red;
-}
-
-.img p{
-    text-decoration: none;
-}
-
-.name{
-    color: red;
-    text-decoration: underline;
-} */
-
-/* .img1{
-    background-image: url(/assets/images/jade-scarlato-1lun52-nNys-unsplash.jpg);
-}
-
-.img2{
-    background-image: url(/assets/images/kamile-jokubauskaite-UMlHAGFGU-Q-unsplash.jpg);
-}
-
-.img3{
-    background-image: url(/assets/images/gemma-chua-tran-Td3yG1y4aII-unsplash.jpg);
-}
-
-.img4{
-    background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
-} */
 
 .images1, .images2, .images3, .images4, .images5, .arrow, .images6, .new-post{
     justify-content: space-between;
+}
+
+.images1{
+    position: relative;
 }
 
 .images1 .img{
