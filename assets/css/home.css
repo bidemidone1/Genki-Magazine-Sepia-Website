@@ -193,7 +193,7 @@ main{
 }
 
 .images1 .img{
-    width: 95%;
+    width: 94%;
     min-height: 400px;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -204,29 +204,48 @@ main{
     
 }
 
-.img-text1{
+.absolute{
     position: absolute;
     top: 10rem;
-    width: 2rem;
+    width: 15rem;
     padding-left: 20px;
+}
+
+.images1-text{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.featured{
+    font-size: 0.6rem;
+    letter-spacing: 0.12rem;
+}
+
+.featured + p{
+    font-size: 1.5rem;
+}
+
+.name{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.img-text1{
+    top: 23rem;
 }
 .img-text2{
-    position: absolute;
-    top: 10rem;
-    width: 2rem;
-    padding-left: 20px;
+    top: 8rem;
 }
 .img-text3{
-    position: absolute;
-    top: 10rem;
-    width: 2rem;
-    padding-left: 20px;
+    top: 22rem;
 }
 .img-text4{
-    position: absolute;
-    top: 10rem;
-    width: 2rem;
-    padding-left: 20px;
+    top: 21rem;
 }
 
 .img5{
