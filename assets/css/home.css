@@ -572,7 +572,6 @@ main{
 .new-post input{
     width: 400px;
     height: 68px;
-    z-index: -1;
     background-color: transparent;
     border: 1px solid rgb(133, 133, 133);
     border-radius: 100px;
@@ -581,9 +580,14 @@ main{
     text-indent: 2rem;
 }
 
+.rel{
+    position: relative;
+}
+
 .subscribe_input{
-    margin-right: -25rem;
-    /* z-index: -1; */
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
 }
 
 /* FOOOTER */
