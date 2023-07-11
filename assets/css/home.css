@@ -415,7 +415,7 @@ main{
     margin-bottom: 2rem;
 }
 
-.img14, .img15, .img16, .img17, .img18, .img19{
+.img14, .img15, .img16, .img17, .img18, .img19, .img20, .img21, .img22, .img23{
     width: 97%;
     height: 65vh;
     object-fit: cover;
@@ -508,31 +508,44 @@ main{
     color: #1e1e1e;
 }
 
-.images5 .three_img{
-    /* margin-bottom: -1rem; */
-    width: 32.5%;
-    /* min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px; 
-    margin-bottom: 2rem; */
+.images5 .four_img{
+    width: 23.5%;
 }
 
-.img20{
-    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+.img-text13{
+    top: 11rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
-.img21{
-    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg);
+.img-text14{
+    top: 13rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
-.img22{
-    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
+.img-text15{
+    top: 13rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
-.img23{
-    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
+.img-text16{
+    top: 1.5rem;
+    font-size: 1.4rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
 .images6 .four_img{
