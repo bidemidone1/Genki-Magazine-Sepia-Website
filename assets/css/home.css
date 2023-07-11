@@ -315,32 +315,109 @@ main{
     font-size: 0.8rem;
 }
 
-.img12{
-    background-image: url(/assets/images/lizzie-Amgr1UIYR1s-unsplash.jpg);
+.images4{
+    color: white;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.images4 a{
+    display: block;
+}
+
+.images4-text1{
+    flex: 2;   
+}
+
+.images4-text2{
+    flex: 1;
+}
+
+.img-text5{
+    top: 3rem;
+    font-size: 1.8rem;
+    width: 23rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 30px;
+}
+
+.img-text5 a{
+    font-weight: normal;
+}
+
+.img-text6{
+    top: 9rem;
+    font-size: 1.5rem;
+    width: 18rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.border-text{
+    
+    font-size: 0.7rem;
+    
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: inherit;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.creative{
+    width: 60px;
+}
+
+.border-text a{
+    color: white;
+    text-decoration: none;  
+}
+
+.border-text a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.border-text:hover{
+    background-color: white;  
+}
+.key-idea{
+    gap: 0.5rem;
+    /* border: 1px solid red; */
+}
+.key{
+    color: black;
+    font-size: 0.6rem;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.key a{
+    color: black;
+
+}
+
+ .img12{
+    width: 97%;
+    height: 65vh;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .img13{
-    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
-}
-
-
-.images4 .img12{
-    width: 65%;
-    min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 97%;
+    height: 65vh;
+    object-fit: cover;
     border-radius: 30px; 
-}
-
-.images4 .img13{
-    width: 33%;
-    min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px; 
-}
+} 
 
 .images4{
     margin-bottom: 2rem;
