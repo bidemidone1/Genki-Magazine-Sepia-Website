@@ -315,7 +315,7 @@ main{
     font-size: 0.8rem;
 }
 
-.images4{
+.images4, .images5{
     color: white;
     position: relative;
     font-family: 'Nunito Sans', sans-serif;
@@ -387,7 +387,6 @@ main{
 }
 .key-idea{
     gap: 0.5rem;
-    /* border: 1px solid red; */
 }
 .key{
     color: black;
@@ -405,68 +404,93 @@ main{
 
 }
 
- .img12{
+ .img12, .img13{
     width: 97%;
     height: 65vh;
     object-fit: cover;
     border-radius: 30px;
 }
 
-.img13{
+.images4{
+    margin-bottom: 2rem;
+}
+
+.img14, .img15, .img16, .img17, .img18, .img19{
     width: 97%;
     height: 65vh;
     object-fit: cover;
     border-radius: 30px; 
 } 
 
-.images4{
-    margin-bottom: 2rem;
-}
-
-.images5{
-    flex-wrap: wrap;
-}
-
-.img14{
-    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg)
-}
-
-.img15{
-    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
-}
-
-.img16{
-    background-image: url(/assets/images/clem-onojeghuo-TDgEgi6zM2s-unsplash-1.jpg);
-}
-
-.img17{
-    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
-}
-
-.img18{
-    background-image: url(/assets/images/gemma-chua-tran-z7gi8Dc4riQ-unsplash.jpg);
-}
-
-.img19{
-    background-image: url(/assets/images/photo-1613420568020-0c0e3764d499.jpeg);
-}
-
 .images5 .three_img{
-    width: 32%;
-    min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px; 
-    margin-bottom: 2rem;
+    width: 32.5%;
+}
+
+.img-text7{
+    bottom: 0rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.img-text8{
+    bottom: 0rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.img-text9{
+    top: 0.8rem;
+    font-size: 2rem;
+    width: 21rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 30px;
+}
+
+.img-text10{
+    top: 1rem;
+    font-size: 2rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 30px;
+}
+
+.img-text11{
+    bottom: 0rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.img-text12{
+    top: 8rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
 }
 
 .images5{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.load{
+    margin-top: 3rem;
 }
 
 .load_more-btn{
     padding: 15px 50px;
+    margin-top: 2rem;
 }
 
 .arrow{
@@ -482,6 +506,17 @@ main{
 
 .arrow i{
     color: #1e1e1e;
+}
+
+.images5 .three_img{
+    /* margin-bottom: -1rem; */
+    width: 32.5%;
+    /* min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px; 
+    margin-bottom: 2rem; */
 }
 
 .img20{
