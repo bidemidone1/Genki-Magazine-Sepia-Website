@@ -21,7 +21,7 @@ body {
     background-image: url("background-image-vic/tracey-hocking-L0zoHrcMx8M-unsplash.jpg");
     z-index: -1;
     height: 60vh;
-    opacity: 0.5;
+    opacity: .4;
     background: no-repeat center center/cover;
     /*background-color: rgba(0, 0, 0, 0);*/
     background-position: center;
