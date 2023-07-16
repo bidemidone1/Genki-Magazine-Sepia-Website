@@ -64,7 +64,7 @@ body {
 }
 
 
-                              /*HEADER*/
+/*HEADER*/
 .d-flex{
     display: flex;
 }
@@ -117,7 +117,7 @@ nav li{
     text-decoration: none;
 }
 
-                                /*MAIN*/
+/*MAIN*/
 
 main {
     display: block;
@@ -221,3 +221,48 @@ a {
     margin-top: 3vh;
     margin: 5vh auto 0;
 }
+
+/*FOOTER*/
+footer{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 4rem;
+}
+
+.footer-logo img{
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-section_container{
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-title{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer-section div{
+    margin-bottom: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright, .copyright a{
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+                                
