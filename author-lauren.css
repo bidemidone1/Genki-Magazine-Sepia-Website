@@ -14,19 +14,18 @@ body {
     max-height: 100%;
 }
 
-.global-cover {
-    background-image: url("image/lim-wu-sKKuyRyiy6k-unsplash.jpg");
+.background-image::before{
+    content: "";
     position: absolute;
-    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(0deg,transparent,#f2efe4 0%,#f2efe4 5%,rgba(0,0,0,.104)22.5%, #f2efe4 100%, #f2efe4 100%,#f2efe4 100%,#f2efe4), url(background-image-lauren/lim-wu-sKKuyRyiy6k-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
     height: 60vh;
     opacity: .4;
-    background: no-repeat center center/cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-origin: padding-box;
-    background-clip: border-box;
+    z-index: -1;
 }
 
 .global-wrap {
@@ -40,6 +39,78 @@ body {
     padding: 0 30px;
     height: 100%;
 }
+
+
+/*HEADER*/
+.d-flex {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 20px 40px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.logo img {
+    width: 5rem;
+    height: 2rem;
+}
+
+.logo-container{
+    gap: 2rem;
+    max-width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    gap: 2rem;
+}
+
+.search-signup {
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+}
+
+.signup {
+    background-color: #1e1e1e;
+    padding: 0.5rem 2rem;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.signup:hover {
+    background-color: #e4b245;
+}
+
+
+.signup a {
+    color: #fff;
+}
+
+.signup a:hover {
+    text-decoration: none;
+}
+
+/*MAIN*/
 
 main {
     display: block;
@@ -143,3 +214,48 @@ a {
     margin-top: 3vh;
     margin: 5vh auto 0;
 }
+
+/*FOOTER*/
+footer{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 4rem;
+}
+
+.footer-logo img{
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-section_container{
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-title{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer-section div{
+    margin-bottom: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright, .copyright a{
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+                                
