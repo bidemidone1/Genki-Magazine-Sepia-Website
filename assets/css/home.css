@@ -597,6 +597,7 @@ main{
     color: #1e1e1e;
     border-bottom: 1px solid rgb(133, 133, 133);
     padding-bottom: 3rem;
+    justify-content: space-between;
 }
 
 .new-post input{
@@ -680,6 +681,10 @@ footer a:hover{
         width: 85%;
     }
 
+    .genki{
+        width: 92%;
+    }
+
     .container{
         width: 90%;
     }
@@ -724,8 +729,34 @@ footer a:hover{
         width: 92%;
     }
     
+    .genki{
+        width: 94%;
+    }
+    
     .img img{
         height: 40vh;
+    }
+
+    .new-post{
+        font-size: 3.2rem;
+    }
+
+    .subscribe_input{
+        top: 9.8rem;
+    }
+    
+    .new-post input{
+        width: 350px;
+        margin-top: 9rem;
+        
+    }
+
+    .sub-new-post{
+        margin-top: 9rem;
+    }
+
+    footer{
+        margin-top: 9rem;
     }
 
     footer a{
