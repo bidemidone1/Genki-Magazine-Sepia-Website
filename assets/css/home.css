@@ -766,6 +766,10 @@ footer a:hover{
 }
 
 @media screen and (max-width: 820px) {
+    .genki{
+        width: 100%;
+    }
+    
     .images4, .images5{
         flex-wrap: wrap;
     }
@@ -809,6 +813,19 @@ footer a:hover{
 
     .new-post{
         font-size: 3rem;
+    }
+
+    .subscribe_input{
+        top: 9.8rem;
+    }
+    
+    .new-post input{
+        width: 350px;
+        margin-top: 0.6rem; 
+    }
+
+    .sub-new-post{
+        margin-top: 0rem;
     }
 
     .subscribe_input{
