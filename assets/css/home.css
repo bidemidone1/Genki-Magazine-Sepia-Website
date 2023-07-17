@@ -667,4 +667,41 @@ footer a:hover{
 }
 
 
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1024px) {
+    .main-text{
+        width: 85%;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .bold-italics{
+        font-size: 5rem;
+    }
+
+    .disappear{
+        display: none;
+    }
+
+    .images1-text{
+        width: 31%;
+    }
+
+    .four_img{
+        width: 31%;
+    }
+   
+    .images5{
+        margin-bottom: 1rem;
+    }
+    
+    footer a{
+        font-size: 0.8rem;
+    }
+    
+}
+
 
