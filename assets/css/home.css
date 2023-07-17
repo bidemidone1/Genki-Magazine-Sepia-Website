@@ -704,4 +704,17 @@ footer a:hover{
     
 }
 
+@media screen and (max-width: 912px) {
+    .main-text{
+        width: 92%;
+    }
+    
+    .img img{
+        height: 40vh;
+    }
 
+    footer a{
+        font-size: 0.6rem;
+    }
+    
+}
