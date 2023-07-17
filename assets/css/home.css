@@ -22,8 +22,35 @@ body{
     text-align: center;
 }
 
+.background-image{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.background-image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(0deg,transparent,#f2efe4 0%,#f2efe4 5%,rgba(0,0,0,.104)22.5%, #f2efe4 100%, #f2efe4 100%,#f2efe4 100%,#f2efe4), url(/assets/images/gemma-chua-tran-no1ZI2uXTFw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    opacity: 0.5;
+    z-index: -1;
+}
+
 
 /* HEADER */
+
+header{
+    /* background-image: url(/assets/images/gemma-chua-tran-no1ZI2uXTFw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
 nav{
     justify-content: space-between;
     padding: 20px 40px; 
@@ -131,36 +158,68 @@ main{
     margin-bottom: 3rem;
 }
 
-.img1{
-    background-image: url(/assets/images/jade-scarlato-1lun52-nNys-unsplash.jpg);
-}
-
-.img2{
-    background-image: url(/assets/images/kamile-jokubauskaite-UMlHAGFGU-Q-unsplash.jpg);
-}
-
-.img3{
-    background-image: url(/assets/images/gemma-chua-tran-Td3yG1y4aII-unsplash.jpg);
-}
-
-.img4{
-    background-image: url(/assets/images/krystal-ng-jRp60R7ogNQ-unsplash.jpg);
-}
-
 .images1, .images2, .images3, .images4, .images5, .arrow, .images6, .new-post{
     justify-content: space-between;
 }
 
+.images1{
+    position: relative;
+}
+
 .images1 .img{
-    width: 23%;
+    width: 94%;
     min-height: 400px;
-    background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
     margin-top: 5rem;
     margin-bottom: 2.5rem;
     
+}
+
+.absolute{
+    position: absolute;
+    top: 10rem;
+    width: 15rem;
+    padding-left: 20px;
+}
+
+.images1-text{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.featured{
+    font-size: 0.6rem;
+    letter-spacing: 0.12rem;
+}
+
+.featured + p{
+    font-size: 1.5rem;
+}
+
+.name{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.img-text1{
+    top: 23rem;
+}
+.img-text2{
+    top: 8rem;
+}
+.img-text3{
+    top: 22rem;
+}
+.img-text4{
+    top: 21rem;
 }
 
 .img5{
@@ -183,6 +242,20 @@ main{
     background-position: center;
     border-radius: 30px; 
     margin-bottom: 4rem; 
+}
+
+.images2 div{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .images3{
@@ -244,81 +317,182 @@ main{
     font-size: 0.8rem;
 }
 
-.img12{
-    background-image: url(/assets/images/lizzie-Amgr1UIYR1s-unsplash.jpg);
+.images4, .images5{
+    color: white;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.img13{
-    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+.images4 a{
+    display: block;
 }
 
-
-.images4 .img12{
-    width: 65%;
-    min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px; 
+.images4-text1{
+    flex: 2;   
 }
 
-.images4 .img13{
-    width: 33%;
-    min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px; 
+.images4-text2{
+    flex: 1;
+}
+
+.img-text5{
+    top: 3rem;
+    font-size: 1.8rem;
+    width: 23rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 30px;
+}
+
+.img-text5 a{
+    font-weight: normal;
+}
+
+.img-text6{
+    top: 9rem;
+    font-size: 1.5rem;
+    width: 18rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.border-text{
+    
+    font-size: 0.7rem;
+    
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: inherit;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.creative{
+    width: 60px;
+}
+
+.border-text a{
+    color: white;
+    text-decoration: none;  
+}
+
+.border-text a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.border-text:hover{
+    background-color: white;  
+}
+.key-idea{
+    gap: 0.5rem;
+}
+.key{
+    color: black;
+    font-size: 0.6rem;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.key a{
+    color: black;
+
+}
+
+ .img12, .img13{
+    width: 97%;
+    height: 65vh;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .images4{
     margin-bottom: 2rem;
 }
 
-.images5{
-    flex-wrap: wrap;
-}
-
-.img14{
-    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg)
-}
-
-.img15{
-    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
-}
-
-.img16{
-    background-image: url(/assets/images/clem-onojeghuo-TDgEgi6zM2s-unsplash-1.jpg);
-}
-
-.img17{
-    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
-}
-
-.img18{
-    background-image: url(/assets/images/gemma-chua-tran-z7gi8Dc4riQ-unsplash.jpg);
-}
-
-.img19{
-    background-image: url(/assets/images/photo-1613420568020-0c0e3764d499.jpeg);
-}
+.img14, .img15, .img16, .img17, .img18, .img19, .img20, .img21, .img22, .img23{
+    width: 97%;
+    height: 65vh;
+    object-fit: cover;
+    border-radius: 30px; 
+} 
 
 .images5 .three_img{
-    width: 32%;
-    min-height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px; 
-    margin-bottom: 2rem;
+    width: 32.5%;
+}
+
+.img-text7{
+    bottom: 0rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.img-text8{
+    bottom: 0rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.img-text9{
+    top: 0.8rem;
+    font-size: 2rem;
+    width: 21rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 30px;
+}
+
+.img-text10{
+    top: 1rem;
+    font-size: 2rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 30px;
+}
+
+.img-text11{
+    bottom: 0rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
+}
+
+.img-text12{
+    top: 8rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
 }
 
 .images5{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.load{
+    margin-top: 3rem;
 }
 
 .load_more-btn{
     padding: 15px 50px;
+    margin-top: 2rem;
 }
 
 .arrow{
@@ -336,20 +510,44 @@ main{
     color: #1e1e1e;
 }
 
-.img20{
-    background-image: url(/assets/images/carnaby-gilany-BKp6dQmmY5k-unsplash.jpg);
+.images5 .four_img{
+    width: 23.5%;
 }
 
-.img21{
-    background-image: url(/assets/images/jakayla-toney-nmosIbEJq7M-unsplash.jpg);
+.img-text13{
+    top: 11rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
-.img22{
-    background-image: url(/assets/images/photo-1611679782010-5ac7ff596d9a.jpeg);
+.img-text14{
+    top: 13rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
-.img23{
-    background-image: url(/assets/images/tania-miron-822aanyT-fU-unsplash.jpg);
+.img-text15{
+    top: 13rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
+}
+
+.img-text16{
+    top: 1.5rem;
+    font-size: 1.4rem;
+    width: 15rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 25px;
 }
 
 .images6 .four_img{
@@ -376,7 +574,6 @@ main{
 .new-post input{
     width: 400px;
     height: 68px;
-    z-index: -1;
     background-color: transparent;
     border: 1px solid rgb(133, 133, 133);
     border-radius: 100px;
@@ -385,9 +582,14 @@ main{
     text-indent: 2rem;
 }
 
+.rel{
+    position: relative;
+}
+
 .subscribe_input{
-    margin-right: -25rem;
-    /* z-index: -1; */
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
 }
 
 /* FOOOTER */
