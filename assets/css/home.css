@@ -933,3 +933,46 @@ footer a:hover{
         margin-top: -27rem;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .footer-section_container{
+        flex-wrap: wrap;
+    }
+
+    .footer-container{
+        width: 90%;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .images4-text1, .images4-text2{
+        width: 100%;
+    }
+
+    .three_img{
+        width: 100%;
+       
+        /* margin-bottom: 4rem; */
+    }
+
+    .img-text5{
+        margin-top: -19rem;
+        font-size: 2rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .img-text9{
+        margin-top: -18rem;
+    }
+
+    .img-text10{
+        margin-top: -17rem;
+       
+    }
+
+    .mb{
+        margin-bottom: 3rem;
+    }
+}
