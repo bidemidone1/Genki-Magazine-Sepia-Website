@@ -51,6 +51,11 @@ header{
     background-repeat: no-repeat;
     background-position: center; */
 }
+
+.nav-container{
+    margin: auto;
+    width: 100%;
+}
 nav{
     justify-content: space-between;
     padding: 20px 40px; 
@@ -100,6 +105,10 @@ ul{
     justify-content: center;
     align-items: center;
     max-width: 25%;
+}
+
+.disappear10{
+    display: none;
 }
 
 .signup, .subscribe{
@@ -662,7 +671,6 @@ footer{
 .footer-container{
     margin-left: 8%;
     width: 80%;
-    border: 1px solid red;
 }
 
 .footer-logo img{
@@ -707,6 +715,14 @@ footer a:hover{
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 1024px) {
+    .disappear11{
+        display: none;
+    }
+
+    .disappear10{
+        display: block;
+    }
+
     .main-text{
         width: 85%;
     }
@@ -1040,9 +1056,6 @@ footer a:hover{
         width: 80%;
     }
 
-    /* .nav-container{
-        display: none;
-    } */
 
     .disappear6{
         display: block;
@@ -1098,9 +1111,6 @@ footer a:hover{
         font-size: 2.5rem;
     }
 
-    .nav-container{
-        display: none;
-    }
 
     .m-t{
         margin-top: -4rem;
@@ -1165,5 +1175,9 @@ footer a:hover{
     
     .arrow{
         font-size: 2rem;
+    }
+
+    .img-text13, .img-text14, .img-text15, .img-text16{
+        width: 6rem;
     }
 }
