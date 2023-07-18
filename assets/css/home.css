@@ -981,7 +981,13 @@ footer a:hover{
     /* .container{
         width: 95%;
     } */
-    
+    .main-text{
+        width: 95%;
+    }
+
+    .bold-italics{
+        font-size: 3.5rem;
+    }
     .img-text5{
         width: 100%;
     }
@@ -1001,4 +1007,56 @@ footer a:hover{
     .img-text13, .img-text14, .img-text15, .img-text16{
         width: 10rem;
     }
+
+    .disappear3 p{
+        margin-left: -2rem;
+    }
+
+    .images2{
+        margin-top: 5rem;
+    }
+
+    .img-text4{
+        margin-top: -15rem;
+    }
+
+    .images3-p{
+        font-size: 3.2rem;
+    }
+
+    .img-text5{
+        margin-top: -21.8rem;
+    }
+
+    /* .disappear7{
+        display: ;
+    } */
+
+    .arrow{
+        font-size: 3rem;
+        align-items: center;
+        
+    }
+
+    .img-text13{
+        margin-top: -20rem;
+        width: 12rem;
+        padding: 10px;
+    }
+    
+    .img-text14{
+        margin-top: -20rem;
+        font-size: 1.2rem;
+        width: 12rem;
+    }
+
+    .img-text15{
+        margin-top: -15rem;
+    }
+
+    .sub-new-post{
+        font-size: 2.5rem;
+    }
+
+    
 }
