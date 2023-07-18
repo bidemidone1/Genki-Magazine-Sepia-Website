@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #1e1e1e;
+    background-color: #f2efe4;
+    height: 100%;
+    max-height: 100%;
+}
+
+.background-image {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    opacity: .4;
+    z-index: -1;
+}
+
+.global-wrap {
+    height: 100%;
+}
+
+.global-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    height: 100%;
+}
+
+
+/*HEADER*/
+.d-flex {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 20px 40px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.logo img {
+    width: 5rem;
+    height: 2rem;
+}
+
+.logo-container{
+    gap: 2rem;
+    max-width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    gap: 2rem;
+}
+
+.search-signup {
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+}
+
+.signup {
+    background-color: #1e1e1e;
+    padding: 0.5rem 2rem;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.signup:hover {
+    background-color: #e4b245;
+}
+
+
+.signup a {
+    color: #fff;
+}
+
+.signup a:hover {
+    text-decoration: none;
+}
+
+/*MAIN*/
+
+main {
+    display: block;
+}
+
+.global-main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.author-section {
+    margin-bottom: 5vh;
+    width: 100%;
+    margin: 6vh auto 8vh;
+    text-align: center;
+}
+
+.author-image {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+}
+
+.author-image img {
+    position: relative;
+    border-radius: 100%;
+}
+
+.global-image img {
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    border-style: none;
+}
+
+.global-title-large {
+    font-family: 'EB Garamond', serif;
+    font-size: 68px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.1;
+}
+
+.archive-counter {
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    margin: .6vh auto 0;
+}
+
+.archive-social {
+    margin-top: 3vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 5vh auto 0;
+    padding: 10px;
+    border: 1px solid #bfbeb3;
+    border-radius: 100px;
+    background-color: #f2efe4;
+}
+
+.archive-social span, .archive-social a {
+    font-size: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+    background-color: transparent;
+}
+
+.archive-social svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    transform: translateY(-1px);
+    fill: #1e1e1e;
+}
+
+.archive-description {
+    font-size: 24px;
+    max-width: 540px;
+    margin-top: 3vh;
+    margin: 5vh auto 0;
+}
+
+
+
+/*FOOTER*/
+footer{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 4rem;
+}
+
+.footer-logo img{
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-section_container{
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-title{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer-section div{
+    margin-bottom: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright, .copyright a{
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+                                
