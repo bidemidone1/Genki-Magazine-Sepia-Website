@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2efe4;
+  padding-left: 270px;
+}
+
+#main {
+  font-family: "EB Garamond";
+  font-size: 75px;
+  font-weight: 120;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.main {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.break {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.heading {
+  font-family: "EB Garamond";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.editor2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.dynamic1 {
+  font-family: "Nunito Sans";
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.dynamic2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.markdown1 {
+  font-family: "Nunito Sans";
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.markdown2 {
+  font-family: "Nunito Sans";
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+.border {
+  border: 1px solid #bfbeb3;
+  border-radius: 7px;
+  padding: 5px;
+  width: 30px;
+}
+
+.heading2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-family: "EB Garamond";
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+h2 {
+  font-family: "EB Garamond";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+h3 {
+  font-family: "EB Garamond";
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+h4 {
+  font-family: "Nunito Sans";
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+h5 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+h6 {
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 70px;
+}
+
+.link2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+a {
+  color: black;
+}
+
+.quoting2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+blockquote {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.quotation-mark {
+  font-size: 130px;
+}
+.quote {
+  font-family: "EB Garamond";
+  font-size: 35px;
+  font-weight: 400;
+  padding-top: 100px;
+}
+
+.bookmark2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  margin-bottom: 70px;
+}
+.border-box {
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 15px;
+  width: 75%;
+  font-family: "Nunito Sans";
+  margin-bottom: 50px;
+}
+
+.fueko {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fueko {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-header-1-intro {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.intro {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+}
+
+
+.images {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.images-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.images-container > div {
+  margin: auto;
+}
+
+.images-container img {
+  border-radius: 30px;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.image-text {
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+
+.gallery__item:hover .gallery__img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1rem;
+  width: 70%;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
+
+.gallery__item--2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
+
+.gallery__item--3 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
+
+.gallery__item--4 {
+  grid-column-start: -10;
+  grid-column-end: -4;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+.gallery__item--5 {
+  grid-column-start: -4;
+  grid-column-end: -1;
+  grid-row-start: 5;
+  grid-row-end: 9;
+} 
+.highlight2 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+.item_number {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+}
+.nested {
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.tables {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+table {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  border-collapse: collapse;
+  border-top: 1px solid black;
+  margin-bottom: 40px;
+}
+th, tr {
+  border-bottom: 1px solid black;
+}
+th, td {
+  padding: 15px;
+}
+iframe {
+  margin-bottom: 70px;
+}
+.code_text {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.code-box {
+  border: 1px solid #000;
+  padding: 30px;
+  border-radius: 15px;
+  width: 50%;
+  font-family: "Nunito Sans";
+  margin-bottom: 50px;
+}
