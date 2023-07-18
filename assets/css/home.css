@@ -767,6 +767,38 @@ footer a:hover{
         height: 40vh;
     }
 
+    .img-text6{
+        margin-top: -16rem;
+    }
+
+    .img-text7{
+        margin-top: -14.5rem;
+    }
+    
+    .img-text8{
+        margin-top: -13.5rem;
+    }
+    
+    .img-text9{
+        margin-top: -24rem;
+    }
+  
+    .img-text11{
+        margin-top: -14.5rem;
+    }
+    
+    .img-text12{
+        margin-top: -16rem;
+    }
+
+    .img-text14{
+        margin-top: -14rem;
+    }
+    
+    .three_img{
+        margin-bottom: 1rem;
+    }
+
     .new-post{
         font-size: 3.2rem;
     }
@@ -791,6 +823,14 @@ footer a:hover{
 
     footer a{
         font-size: 0.6rem;
+    }
+
+    .img-text6{
+        width: 16rem;
+    }
+
+    .img-text7, .img-text8, .img-text9, .img-text10, .img-text11, .img-text12{
+        width: 17rem;
     }
     
 }
@@ -825,7 +865,7 @@ footer a:hover{
 
     .three_img{
         width: 48.5%;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1.5rem;
     }
 
     .full-space{
@@ -957,6 +997,10 @@ footer a:hover{
         /* margin-bottom: 4rem; */
     }
 
+    .img-text2{
+        margin-top: -17rem;
+    }
+
     .img-text5{
         margin-top: -19rem;
         font-size: 2rem;
@@ -973,7 +1017,7 @@ footer a:hover{
     }
 
     .mb{
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -1028,10 +1072,6 @@ footer a:hover{
         margin-top: -21.8rem;
     }
 
-    /* .disappear7{
-        display: ;
-    } */
-
     .arrow{
         font-size: 3rem;
         align-items: center;
@@ -1058,5 +1098,72 @@ footer a:hover{
         font-size: 2.5rem;
     }
 
+    .nav-container{
+        display: none;
+    }
+
+    .m-t{
+        margin-top: -4rem;
+    }
+}
+
+@media screen and (max-width: 393px)  {
+    .bold-italics{
+        font-size: 3rem;
+    }
+
+    .genki{
+        font-size: 1.4rem;
+    }
+
+    .disappear8{
+        display: none;
+    }
+
+    .background-image::before{
+        height: 15rem;
+    }
+
+    footer a{
+        font-size: 1.02rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-text5{
+        margin-top: -17rem;
+    }
+
+    .img-text13{
+        margin-top: -16rem;
+    }
     
+    .img-text14{
+        margin-top: -16rem;
+        font-size: 1.2rem;
+        width: 12rem;
+    }
+
+    .four_img{
+        margin-bottom: 3rem;
+    }
+
+    .images2 a{
+        font-size: 1rem;
+    }
+
+    .img-text5{
+        margin-bottom: -5rem;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .new-post input{
+        width: 250px;
+    }
+    
+    .arrow{
+        font-size: 2rem;
+    }
 }
