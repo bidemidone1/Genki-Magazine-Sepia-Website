@@ -976,3 +976,29 @@ footer a:hover{
         margin-bottom: 3rem;
     }
 }
+
+@media screen and (max-width: 414px){
+    /* .container{
+        width: 95%;
+    } */
+    
+    .img-text5{
+        width: 100%;
+    }
+
+    .footer-container{
+        width: 80%;
+    }
+
+    /* .nav-container{
+        display: none;
+    } */
+
+    .disappear6{
+        display: block;
+    }
+
+    .img-text13, .img-text14, .img-text15, .img-text16{
+        width: 10rem;
+    }
+}
