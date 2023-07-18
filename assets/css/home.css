@@ -665,14 +665,10 @@ main{
 footer{
     font-family: 'Nunito Sans', sans-serif;
     margin-top: 4rem;
-    
 }
-
 .footer-container{
-    margin-left: 8%;
-    width: 80%;
+    margin: 4rem;
 }
-
 .footer-logo img{
     width: 6rem;
     height: 2rem;
