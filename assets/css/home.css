@@ -51,6 +51,11 @@ header{
     background-repeat: no-repeat;
     background-position: center; */
 }
+
+.nav-container{
+    margin: auto;
+    width: 100%;
+}
 nav{
     justify-content: space-between;
     padding: 20px 40px; 
@@ -100,6 +105,10 @@ ul{
     justify-content: center;
     align-items: center;
     max-width: 25%;
+}
+
+.disappear10{
+    display: none;
 }
 
 .signup, .subscribe{
@@ -662,7 +671,6 @@ footer{
 .footer-container{
     margin-left: 8%;
     width: 80%;
-    border: 1px solid red;
 }
 
 .footer-logo img{
@@ -707,6 +715,14 @@ footer a:hover{
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 1024px) {
+    .disappear11{
+        display: none;
+    }
+
+    .disappear10{
+        display: block;
+    }
+
     .main-text{
         width: 85%;
     }
@@ -767,6 +783,38 @@ footer a:hover{
         height: 40vh;
     }
 
+    .img-text6{
+        margin-top: -16rem;
+    }
+
+    .img-text7{
+        margin-top: -14.5rem;
+    }
+    
+    .img-text8{
+        margin-top: -13.5rem;
+    }
+    
+    .img-text9{
+        margin-top: -24rem;
+    }
+  
+    .img-text11{
+        margin-top: -14.5rem;
+    }
+    
+    .img-text12{
+        margin-top: -16rem;
+    }
+
+    .img-text14{
+        margin-top: -14rem;
+    }
+    
+    .three_img{
+        margin-bottom: 1rem;
+    }
+
     .new-post{
         font-size: 3.2rem;
     }
@@ -791,6 +839,14 @@ footer a:hover{
 
     footer a{
         font-size: 0.6rem;
+    }
+
+    .img-text6{
+        width: 16rem;
+    }
+
+    .img-text7, .img-text8, .img-text9, .img-text10, .img-text11, .img-text12{
+        width: 17rem;
     }
     
 }
@@ -825,7 +881,7 @@ footer a:hover{
 
     .three_img{
         width: 48.5%;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1.5rem;
     }
 
     .full-space{
@@ -957,6 +1013,10 @@ footer a:hover{
         /* margin-bottom: 4rem; */
     }
 
+    .img-text2{
+        margin-top: -17rem;
+    }
+
     .img-text5{
         margin-top: -19rem;
         font-size: 2rem;
@@ -973,7 +1033,7 @@ footer a:hover{
     }
 
     .mb{
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -981,7 +1041,13 @@ footer a:hover{
     /* .container{
         width: 95%;
     } */
-    
+    .main-text{
+        width: 95%;
+    }
+
+    .bold-italics{
+        font-size: 3.5rem;
+    }
     .img-text5{
         width: 100%;
     }
@@ -990,9 +1056,6 @@ footer a:hover{
         width: 80%;
     }
 
-    /* .nav-container{
-        display: none;
-    } */
 
     .disappear6{
         display: block;
@@ -1000,5 +1063,121 @@ footer a:hover{
 
     .img-text13, .img-text14, .img-text15, .img-text16{
         width: 10rem;
+    }
+
+    .disappear3 p{
+        margin-left: -2rem;
+    }
+
+    .images2{
+        margin-top: 5rem;
+    }
+
+    .img-text4{
+        margin-top: -15rem;
+    }
+
+    .images3-p{
+        font-size: 3.2rem;
+    }
+
+    .img-text5{
+        margin-top: -21.8rem;
+    }
+
+    .arrow{
+        font-size: 3rem;
+        align-items: center;
+        
+    }
+
+    .img-text13{
+        margin-top: -20rem;
+        width: 12rem;
+        padding: 10px;
+    }
+    
+    .img-text14{
+        margin-top: -20rem;
+        font-size: 1.2rem;
+        width: 12rem;
+    }
+
+    .img-text15{
+        margin-top: -15rem;
+    }
+
+    .sub-new-post{
+        font-size: 2.5rem;
+    }
+
+
+    .m-t{
+        margin-top: -4rem;
+    }
+}
+
+@media screen and (max-width: 393px)  {
+    .bold-italics{
+        font-size: 3rem;
+    }
+
+    .genki{
+        font-size: 1.4rem;
+    }
+
+    .disappear8{
+        display: none;
+    }
+
+    .background-image::before{
+        height: 15rem;
+    }
+
+    footer a{
+        font-size: 1.02rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-text5{
+        margin-top: -17rem;
+    }
+
+    .img-text13{
+        margin-top: -16rem;
+    }
+    
+    .img-text14{
+        margin-top: -16rem;
+        font-size: 1.2rem;
+        width: 12rem;
+    }
+
+    .four_img{
+        margin-bottom: 3rem;
+    }
+
+    .images2 a{
+        font-size: 1rem;
+    }
+
+    .img-text5{
+        margin-bottom: -5rem;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .new-post input{
+        width: 250px;
+    }
+    
+    .arrow{
+        font-size: 2rem;
+    }
+
+    .img-text13, .img-text14, .img-text15, .img-text16{
+        width: 6rem;
     }
 }
