@@ -298,14 +298,15 @@ p {
 .border-text a{
     color: white;
     text-decoration: none;  
+
 }
 
 .border-text a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
-.border-text:hover{
+.border-text:hover {
     background-color: white;  
 }
 
@@ -319,22 +320,46 @@ p {
     object-fit: cover;
     border-radius: 30px;
 }
-
+/*here*/
 .img-text7{
     bottom: 0;
     font-size: 1.4rem;
     width: 20rem;
     font-weight: 700;
     line-height: 2rem;
-    padding: 30px;
+    padding: 20px;
     margin-top: 15%;
 }
 
+.lock-img {
+    border-color: #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    margin: 10px 5px 0 0;
+    border: 1px solid #99988f;
+    border-radius: 100px;
+}
 
+.lock-img svg {
+    fill: #1e1e1e;
+    height: 12px;
+}
 
+.img-text7 a {
+    display: inline-block;
+}
 
-
-
+.d-imgs {
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+    width: 100%;
+}
 
 
 
