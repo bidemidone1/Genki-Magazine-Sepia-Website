@@ -5,7 +5,7 @@
 .accounts-container{
     margin: auto;
     max-width: 60%;
-    /* border: 3px solid gray; */
+
 }
 
 .account-name{
@@ -29,10 +29,7 @@
 
 .card-details{
     margin: auto;
-    width: 85%;
-    
-    /* height: 80vh; */
-    
+    width: 85%;   
 }
 
 .card-details-container1{
@@ -54,9 +51,6 @@
     font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 1.2rem;
-    /* margin-top: 1.5rem; */
-    /* font-family: 'Nunito Sans', sans-serif;
-    color: #1e1e1e; */
 }
 
 .email-plan{
@@ -69,13 +63,11 @@
 
 .card-info-title{
     font-size: 0.8rem;
-    /* font-family: 'Nunito Sans', sans-serif; */
 }
 
 .card-info{
     font-size: 0.9rem;
     font-weight: 600;
-    /* font-family: 'Nunito Sans', sans-serif; */
 }
 
 .sub-cancel{
@@ -124,3 +116,48 @@
 .ican i{
     font-size: 0.3rem;
 } */
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+    .accounts-container{
+        max-width: 80%;
+    }
+    .card-details{
+        width: 90%;
+    }
+
+    .account-name{
+        font-size: 3.8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .accounts-container{
+        max-width: 95%;
+    }
+
+    .account-name{
+        font-size: 2.8rem;
+    }
+
+    .card-details{
+        width: 100%;
+    }
+
+    .card-details-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .flex-wrap{
+        width: 100%;
+        
+    }
+
+    .card-info-title{
+        font-size: 0.9rem;
+    }
+    
+    .card-info{
+        font-size: 1rem;
+        font-weight: 600;
+        
+}
