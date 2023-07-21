@@ -215,6 +215,14 @@ a {
     margin: 5vh auto 0;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.t-center {
+    text-align: center;
+}
+
 .images4 {
     justify-content: space-between;
 }
@@ -280,7 +288,7 @@ p {
     text-decoration: underline;
 }
 
-.border-text{
+.border-text {
     font-size: 0.7rem;
     border: 1px solid white;
     justify-content: center;
@@ -291,14 +299,17 @@ p {
     padding: 2px 5px;
 }
 
+.label a {
+    padding: 5px 10px;
+}
+
 .creative{
     width: 60px;
 }
 
 .border-text a{
     color: white;
-    text-decoration: none;  
-
+    text-decoration: none; 
 }
 
 .border-text a:hover{
@@ -321,17 +332,17 @@ p {
     border-radius: 30px;
 }
 /*here*/
-.img-text7{
-    bottom: 0;
+/*.img-text7{
+    top: 90%;
     font-size: 1.4rem;
     width: 20rem;
     font-weight: 700;
     line-height: 2rem;
     padding: 20px;
     margin-top: 15%;
-}
+}*/
 
-.lock-img {
+/*.lock-img {
     border-color: #fff;
     background-color: #fff;
     display: flex;
@@ -348,22 +359,36 @@ p {
 .lock-img svg {
     fill: #1e1e1e;
     height: 12px;
+}*/
+
+.img-text7 {
+    margin-top: 10rem;
+    font-size: 1.4rem;
+    width: 20rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 30px;
 }
 
-.img-text7 a {
-    display: inline-block;
+.key-idea {
+    gap: 0.5rem;
 }
 
-.d-imgs {
-    position: relative;
-    z-index: 1;
-    pointer-events: none;
-    width: 100%;
+.key {
+    color: black;
+    font-size: 0.6rem;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
+.key a {
+    color: black;
 
-
-
+}
 
 
 /*FOOTER*/
