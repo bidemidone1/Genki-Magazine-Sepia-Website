@@ -331,35 +331,6 @@ p {
     object-fit: cover;
     border-radius: 30px;
 }
-/*here*/
-/*.img-text7{
-    top: 90%;
-    font-size: 1.4rem;
-    width: 20rem;
-    font-weight: 700;
-    line-height: 2rem;
-    padding: 20px;
-    margin-top: 15%;
-}*/
-
-/*.lock-img {
-    border-color: #fff;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 24px;
-    height: 24px;
-    margin: 10px 5px 0 0;
-    border: 1px solid #99988f;
-    border-radius: 100px;
-}
-
-.lock-img svg {
-    fill: #1e1e1e;
-    height: 12px;
-}*/
 
 .img-text7 {
     margin-top: 10rem;
@@ -391,6 +362,7 @@ p {
 }
 
 /*Subscribe section*/
+
 .subscribe-section {
     width: 100%;
     max-width: 100%;
@@ -483,7 +455,6 @@ button {
     overflow: visible;
     font-family: inherit;
 }
-
 
 
 /*FOOTER*/
